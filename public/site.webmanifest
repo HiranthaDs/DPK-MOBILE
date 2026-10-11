@@ -1,0 +1,18 @@
+{
+  "name": "DPK Mobile",
+  "short_name": "DPK Mobile",
+  "description": "Phones and everyday technology from DPK Mobile in Ja-Ela and Kandana.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000092",
+  "lang": "en-LK",
+  "icons": [
+    {
+      "src": "/Icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

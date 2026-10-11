@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Serve real assets and generated files directly.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Let the React router handle public storefront routes.
+RewriteRule ^ index.html [L]
